@@ -26,6 +26,7 @@ export type Database = {
           id_sede: number
           id_usuario_resolucion: string | null
           nivel_prioridad: string
+          observaciones: string | null
           tipo: string
         }
         Insert: {
@@ -39,6 +40,7 @@ export type Database = {
           id_sede: number
           id_usuario_resolucion?: string | null
           nivel_prioridad: string
+          observaciones?: string | null
           tipo: string
         }
         Update: {
@@ -52,6 +54,7 @@ export type Database = {
           id_sede?: number
           id_usuario_resolucion?: string | null
           nivel_prioridad?: string
+          observaciones?: string | null
           tipo?: string
         }
         Relationships: [
